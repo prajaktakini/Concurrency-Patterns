@@ -1,4 +1,4 @@
-package com.example.concurrency.multithreading.patterns.deferred.callback;
+package com.example.concurrency.multithreading.patterns.deferredcallback;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;

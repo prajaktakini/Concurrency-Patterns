@@ -1,4 +1,4 @@
-package com.example.concurrency.multithreading.patterns.producer.consumer;
+package com.example.concurrency.multithreading.patterns.producerconsumer;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

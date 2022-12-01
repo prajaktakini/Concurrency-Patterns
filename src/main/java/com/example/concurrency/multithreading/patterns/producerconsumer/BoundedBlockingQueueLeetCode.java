@@ -1,4 +1,4 @@
-package com.example.concurrency.multithreading.patterns.producer.consumer;
+package com.example.concurrency.multithreading.patterns.producerconsumer;
 
 // https://leetcode.com/problems/design-bounded-blocking-queue/discuss/380140/Java-ReentrantLock-%2B-Condition-Solution
 import java.util.concurrent.locks.ReentrantLock;

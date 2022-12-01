@@ -1,4 +1,4 @@
-package com.example.concurrency.multithreading.patterns.token.bucket;
+package com.example.concurrency.multithreading.patterns.tokenbucket;
 
 import java.util.HashSet;
 import java.util.Set;

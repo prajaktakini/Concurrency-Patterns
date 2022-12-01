@@ -1,4 +1,4 @@
-package com.example.concurrency.multithreading.patterns.producer.consumer;
+package com.example.concurrency.multithreading.patterns.producerconsumer;
 
 public class Demonstration {
 

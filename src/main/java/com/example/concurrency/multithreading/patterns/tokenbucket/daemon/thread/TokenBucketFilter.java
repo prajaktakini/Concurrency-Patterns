@@ -1,4 +1,4 @@
-package com.example.concurrency.multithreading.patterns.token.bucket.daemon.thread;
+package com.example.concurrency.multithreading.patterns.tokenbucket.daemon.thread;
 
 public abstract class TokenBucketFilter {
 
