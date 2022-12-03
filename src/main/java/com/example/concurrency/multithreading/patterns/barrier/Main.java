@@ -1,5 +1,11 @@
 package com.example.concurrency.multithreading.patterns.barrier;
 
+/**
+ * A barrier can be thought of as a point in the program code, which all or some of the threads need
+ * to reach at before any one of them is allowed to proceed further.
+ * A barrier allows multiple threads to congregate at a point in code before any one of the threads is allowed to move forward.
+ * Java and most other languages provide libraries which make barrier construct available for developer use.
+ */
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {

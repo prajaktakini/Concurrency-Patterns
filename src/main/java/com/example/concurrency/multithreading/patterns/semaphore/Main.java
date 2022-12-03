@@ -1,5 +1,13 @@
 package com.example.concurrency.multithreading.patterns.semaphore;
 
+/**
+ * A semaphore is a construct that allows some threads to access a fixed set of resources in parallel.
+ * Always think of a semaphore as having a fixed number of permits to give out.
+ * Once all the permits are given out, requesting threads, need to wait for a permit to be returned before proceeding forward.
+ *
+ * Your task is to implement a semaphore which takes in its constructor the maximum number
+ * of permits allowed and is also initialized with the same number of permits.
+ */
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
