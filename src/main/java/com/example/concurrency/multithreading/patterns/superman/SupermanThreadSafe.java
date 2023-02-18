@@ -25,6 +25,11 @@ public class SupermanThreadSafe {
      * @return
      */
     private synchronized static SupermanThreadSafe getInstance() {
+        /**
+         * The con of the above solution is that every invocation of the getInstance() method
+         * causes the invoking thread to synchronize, which is prohibitively more expensive
+         * in terms of performance than non-synchronized snippets of code
+         */
         if (superman == null) {
             superman = new SupermanThreadSafe();
         }

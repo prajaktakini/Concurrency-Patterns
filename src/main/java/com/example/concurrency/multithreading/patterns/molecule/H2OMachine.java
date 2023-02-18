@@ -5,9 +5,9 @@ import java.util.Collections;
 
 public class H2OMachine {
 
-    private Object sync;
-    private int count;
-    String[] molecule;
+    private Object sync; // sync for synchronization
+    private int count; // count to store the current index of the molecule array.
+    String[] molecule; // molecule which is a string array with a capacity of 3 elements (atoms)
 
     public H2OMachine() {
         this.sync = new Object();
@@ -22,7 +22,7 @@ public class H2OMachine {
                 try {
                     sync.wait();
                 } catch (InterruptedException ex) {
-
+                    ex.printStackTrace();
                 }
             }
 
@@ -48,7 +48,7 @@ public class H2OMachine {
                 try {
                     sync.wait();
                 } catch (InterruptedException ex) {
-
+                    ex.printStackTrace();
                 }
             }
 

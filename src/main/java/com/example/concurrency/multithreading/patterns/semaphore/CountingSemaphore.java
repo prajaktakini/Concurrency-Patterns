@@ -16,7 +16,7 @@ public class CountingSemaphore {
         }
 
         // We can alternate below sequence as no other thread can execute this block until this thread comes out of acquire
-        usedPermits--;
+        usedPermits++;
         notify();
     }
 
@@ -26,7 +26,7 @@ public class CountingSemaphore {
             wait();
         }
         // We can alternate below sequence as no other thread can execute this block until this thread comes out of release
-        usedPermits++;
+        usedPermits--;
         notify();
     }
 }

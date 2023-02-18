@@ -1,4 +1,4 @@
-package com.example.concurrency.multithreading.patterns.producerconsumer;
+package com.example.concurrency.multithreading.patterns.producerconsumer.reentrantlock;
 
 /**
  * Classical synchronization problem involving a limited size buffer which can have items added to it or removed from it by different producer and consumer threads.
@@ -9,7 +9,7 @@ package com.example.concurrency.multithreading.patterns.producerconsumer;
  * Also, the queue notifies a blocked enqueuing thread when space becomes available
  * and a blocked dequeuing thread when an item becomes available in the queue.
  */
-public class Demonstration {
+public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         BlockingQueueWithMutex<Integer> queue = new BlockingQueueWithMutex<Integer>(5);

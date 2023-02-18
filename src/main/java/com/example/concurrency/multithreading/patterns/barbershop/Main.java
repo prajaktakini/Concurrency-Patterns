@@ -33,6 +33,7 @@ public class Main {
 
         barber.start();
 
+        // Create 10 customer threads
         for (int i = 0; i < 10; i++) {
             Thread t = new Thread(new Runnable() {
                 @Override
@@ -58,6 +59,7 @@ public class Main {
         threadSet.clear();
         Thread.sleep(300);
 
+        // Bring in another set of 5 customers
         for (int i = 0; i < 5; i++) {
             Thread t = new Thread(new Runnable() {
                 @Override
